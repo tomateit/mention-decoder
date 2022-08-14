@@ -8,6 +8,13 @@ authors = ["Max Ermakov <maksim_ermakov@protonmail.com>"]
 python = "^3.10"
 jupyter = "^1.0.0"
 transformers = "^4.21.0"
+jupyterlab = "^3.4.4"
+sentencepiece = "^0.1.96"
+datasets = "^2.4.0"
+matplotlib = "^3.5.2"
+pymongo = "^4.2.0"
+spacy = "^3.4.1"
+natasha = "^1.4.0"
 
 [tool.poetry.dev-dependencies]
 

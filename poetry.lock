@@ -1646,6 +1646,14 @@ th = ["pythainlp (>=2.0)"]
 transformers = ["spacy-transformers (>=1.1.2,<1.2.0)"]
 
 [[package]]
+name = "spacy-alignments"
+version = "0.8.5"
+description = "A spaCy package for the Rust tokenizations library"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "spacy-legacy"
 version = "3.0.9"
 description = "Legacy registered functions for spaCy backwards compatibility"
@@ -1998,7 +2006,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "50f4f24f82b94e7765f4e5cc76dddbd6610afa36ca715ceec2735c85204393df"
+content-hash = "ad7ca608aaee21609d6d5be03f677103c28e54c41ac5ea97b5e0d7db786556e8"
 
 [metadata.files]
 aiohttp = [
@@ -3142,6 +3150,7 @@ soupsieve = [
     {file = "soupsieve-2.3.2.post1.tar.gz", hash = "sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d"},
 ]
 spacy = []
+spacy-alignments = []
 spacy-legacy = [
     {file = "spacy-legacy-3.0.9.tar.gz", hash = "sha256:4f7dcbc4e6c8e8cb4eadbb009f9c0a1a2a67442e0032c8d6776c9470c3759903"},
     {file = "spacy_legacy-3.0.9-py2.py3-none-any.whl", hash = "sha256:dfd58b0cc65b3596cb06f7b95e7bf4fff34668297c59eb179eb050db07b199df"},

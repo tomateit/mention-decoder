@@ -16,6 +16,7 @@ pymongo = "^4.2.0"
 spacy = "^3.4.1"
 natasha = "^1.4.0"
 spacy-alignments = "^0.8.5"
+sacremoses = "^0.0.53"
 
 [tool.poetry.dev-dependencies]
 
